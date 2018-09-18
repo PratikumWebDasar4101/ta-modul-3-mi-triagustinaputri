@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN</title>
+</head>
+<body>
+	<form action="ta3.php" method="post" enctype="multipart/form-data">
+		
+			<b>Nama User</b><br><input type="text" name="namauser" required><br><br>
+              <b>NIM</b><br><input type="text" name="nim" required><br><br>
+				 <b>Fakultas</b><br>
+                    <select name="fakultas" id="dropdown">
+					<option>Fakultas Ilmu Terapan</option>
+					<option>Fakultas Ekonomi Bisnis</option>
+					<option>Fakultas Komunikasi Bisnis</option>
+					<option>Fakultas Teknik Elektro</option>
+					<option>Fakultas Informatika</option>
+					<option>Fakultas Industri Kreatif</option>
+					<option>Fakultas Rekayasa Industri</option>
+				</select><br><br>
+					<b>Jenis Kelamin : </b>
+					<input type="radio" name="jeniskelamin" value="Laki-laki"> Laki-Laki
+                    <input type="radio" name="jeniskelamin" value="Perempuan"> Perempuan 
+                    <br><br>
+						<b> Foto </b> <input name="foto" type="file" required/> <br><br>
+						<input type="submit" value="kirim" />
+					
+</form>
+</body>
+
+</body>
+</html>
